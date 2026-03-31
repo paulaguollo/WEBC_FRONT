@@ -8,11 +8,16 @@
 <body>
     <div style="text-align: center; color: green">
     <h1>Formulário</h1>
+
 <form action="" method="post"> <!--mais seguro q o get/ estamos enviando ao inserir-->
-    <label for="date">Hoje é dia:</label> <!--o for diz o tipo de input-->
-    <input type="date" name="form-date" id=""> <!--o ID é o codigo pra alterações es+ecificas-->
-   <label for="text">Seu nome é:</label> <!--o for diz o tipo de input-->
-    <input type="text" name="form-name" id="" required>
+
+    <label for="date">Hoje é dia:</label> <!--o label/for diz o tipo de input-->
+    <input type="date" name="form-date" id=""> <!--o ID é o codigo pra alterações especificas. muito usado para js-->
+
+   <label for="text">Seu nome é:</label> <!--label o tipo de input-->
+    <input type="text" name="form-name" id="" required placeholder="nome aqui" > //placeholder soma ao digitar
+
+    <!--readonly value="mostra o que quer escrever e nao da pra alterar"-->
     <input type="submit" value="Confia e envia">
 </div>
 
