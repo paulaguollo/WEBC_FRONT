@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ex formulários PL03</title>
     <link rel="icon" href="patinho.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header style="text-align: center">
@@ -47,34 +48,37 @@
 
     <br />
     <main>
-      <form action="" method="post">
+      <form action="" method="get"> <!--colocar o post pra ser mais seguro e nao aparecer a resposta na barra -->
         <fieldset>
           <!--CAIXINHA-->
           <legend>Formulário de contactos do CESAE</legend>
-          <label for="text">Nome: </label>
+          <label for="form-name">Nome: </label>
           <input type="text" name="form-name" id="" required placeholder="Insira o seu nome aqui"/>
           <br />
 
           <label for="email">Email: </label>
-          <input type="email" name="form-email" id="" /><br /><br />
+          <input type="email" name="form-email" id="form-email" /><br /><br />
 
-          <label for="radio">Género:</label><br />
-          <input type="radio" name="form-gender" id="" /> Feminino <br />
-          <input type="radio" name="form-gender" id="" /> Masculino <br /><br />
+          <label for="form-gender">Género:</label><br />
+          <input type="radio" name="form-gender" id="form-genero-f" value="feminino" /> Feminino <br />
+          <input type="radio" name="form-gender" id="form-genero-m" value="masculino" /> Masculino <br />
+          <input type="radio" name="form-gender" id="form-genero-o" value="outro" /> Outro <br /><br />
 
-          <label for="date">Data atual: </label>
-          <input type="date" name="form-date" id="" />
+          <label for="form-date">Data atual: </label>
+          <input type="date" name="form-date" id="form-date" />
 
           <div>
-            <label for="turma">Turma:</label>
-            <select name="forma-turma" id="">
+            <label for="form-turma">Turma:</label>
+            <select name="forma-turma" id="form-turma">
               <option value="" selected>Software Developer</option>
               <option value="">Outra</option>
             </select>
           </div>
 
-          <label for="textarea">Mensagem: </label>
-          <textarea name="form-mensagem" id="" cols="30" rows="3"></textarea>
+          <div>
+          <label for="form-mensagem">Mensagem: </label>
+          <textarea name="form-mensagem" id="form-mensagem" cols="30" rows="3"></textarea>
+         </div>
 
           <div>
             <input type="reset" value="Limpar" />
