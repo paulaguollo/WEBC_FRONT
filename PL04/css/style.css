@@ -1,7 +1,16 @@
 body {
     background-color: bisque;
     margin: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', sans-serif; /*essa letra ou qualquer uma sem serifas*/
+}
+
+h1 {
+    text-shadow: 0px 0px 10px black;
+    color: white;
+}
+
+p {
+    text-shadow: 0px 0px 10px greenyellow;
 }
 
 .cesae-img{
