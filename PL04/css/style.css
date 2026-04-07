@@ -1,0 +1,39 @@
+body {
+    background-color: bisque;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cesae-img{
+  width: 50%;
+}
+
+header {
+    text-align: center; 
+}
+
+.link-site {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    padding: 5px;
+    margin: 10px;
+}
+
+nav {
+    background-color: grey;
+    padding: 5px;
+    margin: 10px;
+}
+
+nav img:hover{
+   background-color: aliceblue;
+}
+
+
+P {
+    justify-content: center;  
+}
