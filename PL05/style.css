@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(62, 51, 68);
+    margin: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', sans-serif; /*essa letra ou qualquer uma sem serifas*/
+}
+
+h1 {
+    text-shadow: 5px 5px 10px rgb(143, 23, 199);
+    color: greenyellow;
+}
+
+p {
+    text-shadow: 0px 0px 10px rgb(143, 23, 199);
+    justify-content: center; 
+}
+
+.cesae-img{
+  width: 10%;
+  background-color: rgb(143, 23, 199);
+  margin: 5px;
+}
+
+header {
+    text-align: center; 
+}
+
+footer {
+    text-align: center;
+    color: rgb(143, 23, 199);
+    background-color: greenyellow;
+    padding: 10px;
+    margin: 10px;
+}
+
+.link-site{
+    background-color: greenyellow;
+    transform: scale(1.5);
+
+}
+
+.link-focus{
+    background-color: rgb(143, 23, 199);
+}
+
+.fa-brands{
+    font-size: 20px;
+    color: rgb(143, 23, 199);
+    margin: 5px;
+}
+
+.fa-brands:hover{
+    background-color: greenyellow;
+}
+

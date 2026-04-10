@@ -1,0 +1,15 @@
+h1 {
+  background-color: greenyellow;
+}
+
+main p {
+  background-color: blue;
+}
+main div {
+  background-color: pink;
+}
+main div p {
+  background-color: orangered;
+}
+
+/*# sourceMappingURL=style.css.map */

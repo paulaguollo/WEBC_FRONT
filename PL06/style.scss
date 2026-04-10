@@ -1,0 +1,21 @@
+$cor-primaria: green;
+$cor-secundaria: orange;
+$cor-foco: pink;
+
+
+h1{
+    background-color: greenyellow;
+}
+
+main {
+    p{
+        background-color: blue;
+
+    }
+    div{
+        background-color: pink;
+        p{
+            background-color: orangered;
+        }
+    }
+}
