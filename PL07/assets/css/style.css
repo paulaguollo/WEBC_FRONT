@@ -1,0 +1,24 @@
+:root{
+    --vermelho: #E41B15;
+    --vermelho70: rgba(228, 27, 21, 0.70);
+    --branco: #FFFFFF;
+    --branco50: rgba(255, 255, 255, 0.50);
+    
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: red;
+}
+
+header{
+    background-color: var(--vermelho);
+}
+
+footer {
+    background-color: var(--vermelho);
+}
+
+.btn {
+    
+}
