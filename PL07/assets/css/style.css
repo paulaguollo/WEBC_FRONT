@@ -8,17 +8,58 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: red;
+    background-color: var(--branco);
 }
 
 header{
     background-color: var(--vermelho);
 }
 
-footer {
-    background-color: var(--vermelho);
+main {
+    margin-bottom: 120px;
 }
 
 .btn {
-    
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border-color: 1px solid var(--branco);
+}
+
+.btn:hover {
+    background-color: var(--branco);
+    color: var(--vermelho);
+    border-color: 1px solid var(--branco);
+}
+
+.btn:active, .btn:focus, .btn:active:focus {
+    background-color: var(--vermelho) !important;
+    color: var(--branco) !important;
+    border-color: 1px solid var(--branco) !important;
+}
+
+nav .form-control {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: 1px solid var(--branco);
+}
+
+nav .form-control:focus {
+    background-color: var(--vermelho) !important;
+    color: var(--branco) !important;
+    border: 1px solid var(--branco) !important;
+    box-shadow: none !important;
+}
+
+a .bi {
+    color: var(--branco);
+}
+
+a .bi:hover {
+    color: var(--branco50);
+}
+
+
+footer {
+    background-color: var(--vermelho);
+    color: var(--branco);
 }

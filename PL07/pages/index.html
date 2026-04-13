@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,47 +32,77 @@
     <!--MEU CSS-->
     <link rel="stylesheet" href="../assets/css/style.css" />
   </head>
-  <body class="bg-success">
+  <body class="d-flex flex-column min-vh-100">
     <header class="text-center sticky-top">
       <a href="../pages/index.html">
         <img class="p-3" src="../assets/img/worten.svg" alt="logo-worten" />
       </a>
       <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../pages/about">Sobre Nós</a>
-        </li>
-                <li class="nav-item">
-          <a class="nav-link" href="../pages/products.html">Produtos</a>
-        </li>
-                <li class="nav-item">
-          <a class="nav-link" href="../pages/sales.html">Promoções</a>
-        </li>
-                <li class="nav-item">
-          <a class="nav-link" href="../pages/contacts.html">Contactos</a>
-        </li>
-      
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="O que estás a procura? " aria-label="Search"/>
-        <button class="btn" type="submit"><i class="bi bi-search"></i></button>
-      </form>
-    </div>
-  </div>
-</nav>
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/about">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/products.html">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/sales.html">Promoções</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacts.html">Contactos</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="O que estás a procura? "
+                aria-label="Search"
+              />
+              <button class="btn" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
-    <main></main>
-    <footer></footer>
-    <h1>Hello world!</h1>
+    <main class="container shadow p-3 mb-5 rounded flex-grow-1">
 
+    </main>
+    <footer class="container-fluid fixed-bottom text-center p-3">
+    <!--div.row>div.com*2-->
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <p>&COPY; WORTEN - EQUIPAMENTOS PARA O LAR</p>
+      </div>
+      <div class="col-12 col-md-6">
+      <!--(a>i)*6-->
+     <a href="https://www.facebook.com/wortenpt/" target="_blank"><i class="bi bi-facebook mx-3"></i></a>
+     <a href="https://twitter.com/WortenPT" target="_blank"><i class="bi bi-twitter mx-3"></i></a>
+     <a href="https://www.instagram.com/wortenpt/?hl=pt" target="_blank"><i class="bi bi-instagram mx-3"></i></a>
+     <a href="https://www.linkedin.com/company/worten/" target="_blank"><i class="bi bi-linkedin mx-3"></i></a>
+     <a href="https://www.twitch.tv/wortenpt" target="_blank"><i class="bi bi-twitch mx-3"></i></a>
+     <a href="https://www.youtube.com/c/worten" target="_blank"><i class="bi bi-youtube mx-3"></i></a>
+</div>
+    </div>
+    </footer>
     <!--BOOTSTRAP SCRIPT-->
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
 
