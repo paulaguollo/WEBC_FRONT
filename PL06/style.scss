@@ -1,7 +1,4 @@
-$cor-primaria: green;
-$cor-secundaria: orange;
-$cor-foco: pink;
-
+@use 'variables';
 
 h1{
     background-color: greenyellow;
@@ -14,8 +11,8 @@ main {
     }
     div{
         background-color: pink;
-        p{
-            background-color: orangered;
+        h1{
+            background-color: variables.$cor-primaria;
         }
     }
 }
