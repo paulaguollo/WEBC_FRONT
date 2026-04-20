@@ -31,12 +31,46 @@ main {
     border-color: 1px solid var(--branco);
 }
 
-.btn:active, .btn:focus, .btn:active:focus {
+.btn:active, 
+.btn:focus, 
+.btn:active:focus {
     background-color: var(--vermelho) !important;
     color: var(--branco) !important;
     border-color: 1px solid var(--branco) !important;
 }
 
+#btn-sale1, #btn-sale2, #btn-sale3
+ {
+      background-color: var(--vermelho);
+    color: var(--branco);
+    border-color: 1px solid var(--branco);
+}
+
+.btn-sale1:active, 
+.btn-sale2:focus, 
+.btn-sale3:active:focus {
+background-color: var(--branco);
+color: var(--vermelho);
+border: 1px solid var(--vermelho);
+}
+
+.badge, .page-link {
+background-color: var(--vermelho);
+color: var(--branco);
+border: 1px solid var(--branco);
+}
+
+
+.page-link:active, .page-link:focus, .page-link:hover {
+background-color: var(--branco);
+color: var(--vermelho);
+border: 1px solid var(--vermelho);
+}
+
+.toast-header img {
+    width: 20px;
+    height: 20px;
+}
 nav .form-control {
     background-color: var(--vermelho);
     color: var(--branco);
@@ -83,4 +117,12 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.card-title{
+    min-height: 72px;
+}
+
+.card-img-top{
+    max-height: 381px;
 }
